@@ -163,7 +163,7 @@ public class Modificar_Eliminar_Producto extends javax.swing.JFrame {
         jButton7.setText("Cancelar");
         getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 570, 100, 30));
 
-        Fondo.setIcon(new javax.swing.ImageIcon("C:\\Users\\ginin\\OneDrive\\Escritorio\\easyCarga.png")); // NOI18N
+        Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/easyCarga.png"))); // NOI18N
         getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, -1));
 
         pack();

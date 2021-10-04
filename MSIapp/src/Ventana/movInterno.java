@@ -120,7 +120,7 @@ public class movInterno extends javax.swing.JFrame {
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Salida" }));
         getContentPane().add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 250, 100, -1));
 
-        Fondo.setIcon(new javax.swing.ImageIcon("C:\\Users\\ginin\\OneDrive\\Escritorio\\easyCarga.png")); // NOI18N
+        Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/easyCarga.png"))); // NOI18N
         getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();

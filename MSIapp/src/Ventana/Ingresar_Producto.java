@@ -87,7 +87,7 @@ public class Ingresar_Producto extends javax.swing.JFrame {
         jButton4.setText("Cargar");
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 510, 110, 30));
 
-        Fondo.setIcon(new javax.swing.ImageIcon("C:\\Users\\ginin\\OneDrive\\Escritorio\\easyCarga.png")); // NOI18N
+        Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/easyCarga.png"))); // NOI18N
         getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();

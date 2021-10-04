@@ -167,12 +167,12 @@ public class CrearUsario extends javax.swing.JFrame {
         });
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 400, 110, 30));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\ginin\\OneDrive\\Escritorio\\crearUsarioblanco.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/crearUsarioblanco.png"))); // NOI18N
         jLabel3.setText("jLabel3");
         jLabel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 390, 260));
 
-        Fondo.setIcon(new javax.swing.ImageIcon("C:\\Users\\ginin\\OneDrive\\Escritorio\\Intro.jpg")); // NOI18N
+        Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Intro.jpg"))); // NOI18N
         getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(-170, 0, 940, -1));
 
         pack();

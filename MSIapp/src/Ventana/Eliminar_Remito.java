@@ -93,7 +93,7 @@ public class Eliminar_Remito extends javax.swing.JFrame {
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 200, -1, -1));
         getContentPane().add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 190, 160, 30));
 
-        Fondo.setIcon(new javax.swing.ImageIcon("C:\\Users\\ginin\\OneDrive\\Escritorio\\easyCarga.png")); // NOI18N
+        Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/easyCarga.png"))); // NOI18N
         getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, -1));
 
         pack();

@@ -372,7 +372,7 @@
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\ginin\OneDrive\Escritorio\crearUsarioblanco.png"/>
+          <Image iconType="3" name="/Imagenes/crearUsarioblanco.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="jLabel3"/>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -390,7 +390,7 @@
     <Component class="javax.swing.JLabel" name="Fondo">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\ginin\OneDrive\Escritorio\Intro.jpg"/>
+          <Image iconType="3" name="/Imagenes/Intro.jpg"/>
         </Property>
       </Properties>
       <Constraints>
