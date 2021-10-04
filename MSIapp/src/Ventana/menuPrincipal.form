@@ -253,11 +253,6 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="jButton13">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Agregar nuevo usuario"/>
-          </Properties>
-        </Component>
         <Component class="javax.swing.JButton" name="jButton14">
           <Properties>
             <Property name="text" type="java.lang.String" value="Administrar usuarios"/>

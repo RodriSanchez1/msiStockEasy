@@ -48,7 +48,6 @@ public class menuPrincipal extends javax.swing.JFrame {
         jButton10 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
-        jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -133,9 +132,6 @@ public class menuPrincipal extends javax.swing.JFrame {
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder("Administrador"));
         jPanel6.setName("Auxiliar de almacenamiento"); // NOI18N
 
-        jButton13.setText("Agregar nuevo usuario");
-        jPanel6.add(jButton13);
-
         jButton14.setText("Administrar usuarios");
         jPanel6.add(jButton14);
 
@@ -204,7 +200,6 @@ public class menuPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
