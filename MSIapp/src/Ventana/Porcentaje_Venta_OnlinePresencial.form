@@ -120,7 +120,7 @@
           <Color blue="0" green="0" red="99" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\Archivos de Programa\TareaGit\mockupMsi\MSIapp\build\classes\Imagenes\graficoTorta.jpg"/>
+          <Image iconType="3" name="/Imagenes/graficoTorta.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -132,7 +132,7 @@
     <Component class="javax.swing.JLabel" name="Fondo">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\Archivos de Programa\TareaGit\mockupMsi\MSIapp\build\classes\Imagenes\easyCarga.png"/>
+          <Image iconType="3" name="/Imagenes/easyCarga.png"/>
         </Property>
       </Properties>
       <Constraints>
