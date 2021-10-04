@@ -6,6 +6,7 @@
 package msiapp;
 
 import Ventana.Carga_Producto;
+import Ventana.CrearUsario;
 import Ventana.Ingresar_Producto;
 import Ventana.Listado_Productos;
 import Ventana.Modificar_Ubicacion_Producto;
@@ -28,7 +29,7 @@ public class MSIapp {
                                 new Listado_Productos().setVisible(true);
                 new Ubicar_Producto().setVisible(true);
                 new Modificar_Ubicacion_Producto().setVisible(true);
-
+new CrearUsario().setVisible(true);
     }
 
     
