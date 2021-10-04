@@ -68,10 +68,10 @@ public class Porcentaje_Venta_OnlinePresencial extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(153, 0, 0));
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\ginin\\OneDrive\\Escritorio\\graficoTorta.jpg")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon("D:\\Archivos de Programa\\TareaGit\\mockupMsi\\MSIapp\\build\\classes\\Imagenes\\graficoTorta.jpg")); // NOI18N
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, 410, 280));
 
-        Fondo.setIcon(new javax.swing.ImageIcon("C:\\Users\\ginin\\OneDrive\\Escritorio\\easyCarga.png")); // NOI18N
+        Fondo.setIcon(new javax.swing.ImageIcon("D:\\Archivos de Programa\\TareaGit\\mockupMsi\\MSIapp\\build\\classes\\Imagenes\\easyCarga.png")); // NOI18N
         getContentPane().add(Fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, -1));
 
         pack();
