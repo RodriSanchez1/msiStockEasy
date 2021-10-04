@@ -12,6 +12,8 @@ import Ventana.Listado_Productos;
 import Ventana.Modificar_Ubicacion_Producto;
 import Ventana.Ubicar_Producto;
 import Ventana.VentanaLogin;
+import Ventana.menuPrincipal;
+import Ventana.movInterno;
 
 /**
  *
@@ -29,7 +31,9 @@ public class MSIapp {
                                 new Listado_Productos().setVisible(true);
                 new Ubicar_Producto().setVisible(true);
                 new Modificar_Ubicacion_Producto().setVisible(true);
-new CrearUsario().setVisible(true);
+                new CrearUsario().setVisible(true);
+                new menuPrincipal().setVisible(true);
+                new movInterno().setVisible(true);
     }
 
     
