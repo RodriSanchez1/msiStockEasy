@@ -5,6 +5,7 @@
  */
 package msiapp;
 
+import Ventana.Cantidad_Movimientos_Productos;
 import Ventana.Carga_Producto;
 import Ventana.CrearUsario;
 import Ventana.Disponibilidad_Producto;
@@ -13,8 +14,7 @@ import Ventana.Ingresar_Producto;
 import Ventana.Listado_Faltantes_Productos;
 import Ventana.Listado_Productos;
 import Ventana.Modificar_Eliminar_Producto;
-import Ventana.Modificar_Remito_Entrada;
-import Ventana.Modificar_Remito_Salida;
+import Ventana.Modificar_Borrar_Remito;
 import Ventana.Modificar_Ubicacion_Producto;
 import Ventana.Porcentaje_Venta_OnlinePresencial;
 import Ventana.Ubicar_Producto;
@@ -42,12 +42,13 @@ public class MSIapp {
                 new menuPrincipal().setVisible(true);
                 new movInterno().setVisible(true);
                 new Modificar_Eliminar_Producto().setVisible(true);
-                                new Modificar_Remito_Salida().setVisible(true);
-                new Modificar_Remito_Entrada().setVisible(true);
+                                new Modificar_Borrar_Remito().setVisible(true);
                 new Eliminar_Remito().setVisible(true);
                                 new Disponibilidad_Producto().setVisible(true);
                 new Listado_Faltantes_Productos().setVisible(true);
                 new Porcentaje_Venta_OnlinePresencial().setVisible(true);
+                new Modificar_Borrar_Remito().setVisible(true);
+                new Cantidad_Movimientos_Productos().setVisible(true);
 
 
 

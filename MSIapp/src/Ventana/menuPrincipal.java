@@ -37,18 +37,30 @@ public class menuPrincipal extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jButton9 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jButton11 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jButton22 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         jButton10 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
         jButton14 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -89,7 +101,10 @@ public class menuPrincipal extends javax.swing.JFrame {
         jButton5.setText("Entregar producto");
         jPanel1.add(jButton5);
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 530, 70));
+        jButton6.setText("Modificar ubicacion del producto");
+        jPanel1.add(jButton6);
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 530, 80));
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Encargado de Deposito"));
         jPanel2.setName("Auxiliar de almacenamiento"); // NOI18N
@@ -100,7 +115,16 @@ public class menuPrincipal extends javax.swing.JFrame {
         jButton8.setText("Entregar producto");
         jPanel2.add(jButton8);
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 300, -1, -1));
+        jButton19.setText("Ubicar producto");
+        jPanel2.add(jButton19);
+
+        jButton21.setText("Consultar cantidad de movimientos");
+        jPanel2.add(jButton21);
+
+        jButton23.setText("Listado de productos faltantes");
+        jPanel2.add(jButton23);
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 300, 540, 80));
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Auxiliar de recepcion"));
         jPanel3.setName("Auxiliar de almacenamiento"); // NOI18N
@@ -108,7 +132,13 @@ public class menuPrincipal extends javax.swing.JFrame {
         jButton9.setText("Generar remito interno de stock");
         jPanel3.add(jButton9);
 
-        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
+        jButton15.setText("Ingresar nuevo producto");
+        jPanel3.add(jButton15);
+
+        jButton16.setText("Modificar/Eliminar Producto");
+        jPanel3.add(jButton16);
+
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, -1));
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder("Vendedor"));
         jPanel4.setName("Auxiliar de almacenamiento"); // NOI18N
@@ -116,7 +146,19 @@ public class menuPrincipal extends javax.swing.JFrame {
         jButton11.setText("Generar remito interno de stock");
         jPanel4.add(jButton11);
 
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+        jButton13.setText("Ventas online");
+        jPanel4.add(jButton13);
+
+        jButton17.setText("Movimiento interno de stock");
+        jPanel4.add(jButton17);
+
+        jButton22.setText("Consultar disponibilidad");
+        jPanel4.add(jButton22);
+
+        jButton24.setText("Porcentaje de ventas");
+        jPanel4.add(jButton24);
+
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, 530, 80));
 
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder("Repositor"));
         jPanel5.setName("Auxiliar de almacenamiento"); // NOI18N
@@ -124,16 +166,22 @@ public class menuPrincipal extends javax.swing.JFrame {
         jButton10.setText("Modificar ubicacion de productos");
         jPanel5.add(jButton10);
 
+        jButton20.setText("Modificar ubicacion del producto");
+        jPanel5.add(jButton20);
+
         jButton12.setText("Entregar producto");
         jPanel5.add(jButton12);
 
-        getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, -1, -1));
+        getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 380, -1, -1));
 
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder("Administrador"));
         jPanel6.setName("Auxiliar de almacenamiento"); // NOI18N
 
         jButton14.setText("Administrar usuarios");
         jPanel6.add(jButton14);
+
+        jButton18.setText("Modificar o eliminar remito");
+        jPanel6.add(jButton18);
 
         getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, -1, -1));
 
@@ -200,11 +248,23 @@ public class menuPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
