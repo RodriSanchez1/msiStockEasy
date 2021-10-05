@@ -13,6 +13,7 @@ import Ventana.Eliminar_Remito;
 import Ventana.Ingresar_Producto;
 import Ventana.Listado_Faltantes_Productos;
 import Ventana.Listado_Productos;
+import Ventana.Menu_Principal;
 import Ventana.Modificar_Eliminar_Producto;
 import Ventana.Modificar_Borrar_Remito;
 import Ventana.Modificar_Ubicacion_Producto;
@@ -49,6 +50,7 @@ public class MSIapp {
                 new Porcentaje_Venta_OnlinePresencial().setVisible(true);
                 new Modificar_Borrar_Remito().setVisible(true);
                 new Cantidad_Movimientos_Productos().setVisible(true);
+                new Menu_Principal().setVisible(true);
 
 
 
