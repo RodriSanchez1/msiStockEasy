@@ -74,7 +74,7 @@ public class Carga_Producto extends javax.swing.JFrame {
 
         jLabel6.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(153, 0, 0));
-        jLabel6.setText("Stock minimo:");
+        jLabel6.setText("Stock mínimo:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
@@ -94,7 +94,7 @@ public class Carga_Producto extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(153, 0, 0));
-        jLabel11.setText("Codigo:");
+        jLabel11.setText("Código:");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, -1, -1));
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 210, 160, 30));
 

@@ -56,7 +56,7 @@ public class Eliminar_Remito extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "Numero remito", "Fecha", "Tipo de movimiento"
+                "Número remito", "Fecha", "Tipo de movimiento"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
@@ -89,7 +89,7 @@ public class Eliminar_Remito extends javax.swing.JFrame {
 
         jLabel12.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(153, 0, 0));
-        jLabel12.setText("Codigo:");
+        jLabel12.setText("Código:");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 200, -1, -1));
         getContentPane().add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 190, 160, 30));
 

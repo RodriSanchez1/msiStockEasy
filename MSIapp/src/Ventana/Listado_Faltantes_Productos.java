@@ -84,7 +84,7 @@ public class Listado_Faltantes_Productos extends javax.swing.JFrame {
 
         jLabel13.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(153, 0, 0));
-        jLabel13.setText("Codigo:");
+        jLabel13.setText("Código:");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, -1, -1));
         getContentPane().add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, 160, 30));
         getContentPane().add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, 160, 30));

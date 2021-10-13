@@ -55,7 +55,7 @@ public class Ingresar_Producto extends javax.swing.JFrame {
 
         jLabel11.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(153, 0, 0));
-        jLabel11.setText("Codigo:");
+        jLabel11.setText("Código:");
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, -1, -1));
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 240, 180, 30));
         getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 180, 180, 30));
